@@ -16,6 +16,7 @@ areas of interest:
 8. whole brain emulation
 9. generative storytelling
 
+will make time to discuss heresies - sibesh[at]mayalabs[dot]io.
 
 ## on non-locality
 1. [the intutition of David Bohm](https://sibesh.substack.com/p/the-dangerous-intuition-of-david)
@@ -28,4 +29,3 @@ areas of interest:
 2. [new approach to general AI](https://blog.mayalabs.io/general-machine-intelligence/)
 3. [misgivings about deep learning](https://sibesh.substack.com/p/the-robots-must-be-crazy)
 
-will make time to discuss fringe ideas / theories - sibesh[at]mayalabs[dot]io.
