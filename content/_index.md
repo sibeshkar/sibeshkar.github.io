@@ -16,7 +16,7 @@ areas of interest:
 8. whole brain emulation
 9. generative storytelling
 
-will make time to discuss heresies - sibesh[at]mayalabs[dot]io.
+will make time to grok fringe heresies : sibesh[at]mayalabs[dot]io.
 
 ## on non-locality
 1. [the intutition of David Bohm](https://sibesh.substack.com/p/the-dangerous-intuition-of-david)
