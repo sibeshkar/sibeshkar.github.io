@@ -1,27 +1,31 @@
 ---
-title: 🪴 Quartz 3.3
+title: 👾 skar
 enableToc: false
 ---
+founder/ceo @ [mayalabs.io](https://mayalabs.io) - applied research lab on a mission to build machines which can programs themselves to do any task.
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+areas of interest:
 
-1. Extremely fast natural-language [[notes/search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+1. symbolic AI & program synthesis
+2. non-local theories of physics
+3. complexity & information theory
+4. bootstrapping of space industry
+5. megastructures in space
+6. self-replicating machines
+7. non-dualist schools of thought
+8. whole brain emulation
+9. generative storytelling
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
 
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
+## on non-locality
+1. [the intutition of David Bohm](https://sibesh.substack.com/p/the-dangerous-intuition-of-david)
+2. [the physics of causality](https://sibesh.substack.com/p/the-unsettling-physics-of-causality)
+3. [this magic trick has no secrets](https://sibesh.substack.com/p/this-magic-trick-has-no-secrets)
 
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
+## on machine intelligence
+1. [on function approximation](https://twitter.com/sibeshkar/status/1615804999463997441)
+1. [benchmarking generalization in machines](https://blog.mayalabs.io/benchmark/)
+2. [new approach to general AI](https://blog.mayalabs.io/general-machine-intelligence/)
+3. [misgivings about deep learning](https://sibesh.substack.com/p/the-robots-must-be-crazy)
 
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
-
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
-
+will make time to discuss fringe ideas & theories (sibesh[at]mayalabs[dot]io).
