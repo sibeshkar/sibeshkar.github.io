@@ -29,8 +29,5 @@ making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
 3. [new approaches to general ai](https://blog.mayalabs.io/general-machine-intelligence/)
 4. [misgivings about deep learning](https://sibesh.substack.com/p/the-robots-must-be-crazy)
 
-## musings
-1. [anatomy of the new](/blog/new)
-
 
 
