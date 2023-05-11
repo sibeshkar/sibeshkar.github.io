@@ -19,13 +19,13 @@ areas of interest:
 making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
 
 ## on non-locality
-1. [the intutition of David Bohm](https://sibesh.substack.com/p/the-dangerous-intuition-of-david)
+1. [the intuition of David Bohm](https://sibesh.substack.com/p/the-dangerous-intuition-of-david)
 2. [the physics of causality](https://sibesh.substack.com/p/the-unsettling-physics-of-causality)
 3. [this magic trick has no secrets](https://sibesh.substack.com/p/this-magic-trick-has-no-secrets)
 
 ## on machine intelligence
 1. [on function approximation](https://twitter.com/sibeshkar/status/1615804999463997441)
 1. [benchmarking generalization in machines](https://blog.mayalabs.io/benchmark/)
-2. [new approach to general AI](https://blog.mayalabs.io/general-machine-intelligence/)
+2. [new approaches to general ai](https://blog.mayalabs.io/general-machine-intelligence/)
 3. [misgivings about deep learning](https://sibesh.substack.com/p/the-robots-must-be-crazy)
 
