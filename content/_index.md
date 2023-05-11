@@ -13,6 +13,8 @@ areas of interest:
 5. self-replicating factories
 6. non-dualist schools of thought
 7. whole brain emulation
+8. game engines
+9. graphic novels
 
 making time to grok fringe heresies : sibesh[at]mayalabs[dot]io.
 
