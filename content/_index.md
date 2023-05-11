@@ -28,4 +28,4 @@ areas of interest:
 2. [new approach to general AI](https://blog.mayalabs.io/general-machine-intelligence/)
 3. [misgivings about deep learning](https://sibesh.substack.com/p/the-robots-must-be-crazy)
 
-will make time to discuss fringe ideas & theories (mail : sibesh[at]mayalabs[dot]io).
+will make time to discuss fringe ideas / theories - sibesh[at]mayalabs[dot]io.
