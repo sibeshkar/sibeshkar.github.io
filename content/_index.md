@@ -9,7 +9,7 @@ areas of interest:
 1. symbolic AI & program synthesis
 2. non-local theories of physics
 3. complexity & information theory
-4. bootstrapping of space industry
+4. bootstrapping space industry
 5. megastructures in space
 6. self-replicating machines
 7. non-dualist schools of thought
