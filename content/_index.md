@@ -16,7 +16,7 @@ areas of interest:
 8. game engines
 9. graphic novels
 
-making time to grok fringe heresies : sibesh[at]mayalabs[dot]io.
+making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
 
 ## on non-locality
 1. [the intutition of David Bohm](https://sibesh.substack.com/p/the-dangerous-intuition-of-david)
