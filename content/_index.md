@@ -8,13 +8,10 @@ areas of interest:
 
 1. symbolic AI & program synthesis
 2. non-local theories of physics
-3. complexity & information theory
-4. megastructures in space
-5. self-replicating factories
-6. non-dualist schools of thought
-7. whole brain emulation
-8. game engines
-9. graphic novels
+3. self-replicating factories
+4. non-dualist schools of thought
+5. game engines
+6. graphic novels
 
 making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
 
@@ -27,7 +24,6 @@ making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
 1. [on function approximation](https://twitter.com/sibeshkar/status/1615804999463997441)
 2. [benchmarking generalization in machines](https://blog.mayalabs.io/benchmark/)
 3. [new approaches to general ai](https://blog.mayalabs.io/general-machine-intelligence/)
-4. [misgivings about deep learning](https://sibesh.substack.com/p/the-robots-must-be-crazy)
 
 
 
