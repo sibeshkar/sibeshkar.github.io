@@ -1,5 +1,6 @@
 ---
 title : The Parable of The Robot Pirate
+date : 10/05/2023
 ---
 You're AI researcher Barbadosa the pirate trainer, and the first day at the job you have to teach a new robot pirate (a deep learning model, say, JackSparrowGPT), how to find treasure at sea. If you make one of these and make infinite copies of it, you will become very rich, very quick.  
   
