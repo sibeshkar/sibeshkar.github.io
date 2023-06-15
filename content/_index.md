@@ -28,7 +28,7 @@ making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
 3. [this magic trick has no secrets](notes/no-secrets)
 
 ## on non-dualism
-1. [building x understanding](notes/nd/purpose)
+1. [purpose](notes/nd/purpose)
 
 
 
