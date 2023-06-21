@@ -17,10 +17,10 @@ making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
 
 ## on machine intelligence
 1. [the parable of the robot pirate](/notes/pirate)
-1. [a path to unbounded generality](/notes/unbounded)
-2. [on function approximation](https://twitter.com/sibeshkar/status/1615804999463997441)
-3. [benchmarking generalization in machines](https://blog.mayalabs.io/benchmark/)
-4. [general machine intelligence](https://blog.mayalabs.io/general-machine-intelligence/)
+2. [unbounded generality](/notes/unbounded)
+3. [on function approximation](https://twitter.com/sibeshkar/status/1615804999463997441)
+4. [benchmarking generalization in machines](https://blog.mayalabs.io/benchmark/)
+5. [general machine intelligence](https://blog.mayalabs.io/general-machine-intelligence/)
 
 ## on non-locality
 1. [the intuition of david bohm](notes/bohm)
