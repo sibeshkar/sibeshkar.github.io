@@ -9,7 +9,7 @@ areas of interest:
 1. symbolic AI & program synthesis
 2. non-local theories of physics
 3. self-replicating factories
-4. non-dualist schools of thought
+4. advaita vedanta
 5. game engines
 6. graphic novels
 
@@ -27,7 +27,7 @@ making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
 2. [the physics of causality](notes/causality)
 3. [this magic trick has no secrets](notes/no-secrets)
 
-## on non-dualism
+## on advaita
 1. [purpose](notes/nd/purpose)
 
 
