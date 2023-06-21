@@ -19,7 +19,7 @@ Say a digital agent was tasked with discovering a theory of everything - the elu
 1. The agent would need to poke the world along axes that are not indexed in any training data / are not represented in any geometric space
 2. The symbols for expressing such an explantion likely don't exist yet, and definitely not in sufficient quantity to learn via pattern-matching
 3. The tools for building a simulated world model at the right level of abstraction would need to be constructed by the agent
-4. The synthesis process will require compressing the evolution of both QM and GR into one recursive program that models the evolution of time, in order to find an isomorphism
+4. The synthesis process will require compressing the evolution of both QM and GR into one recursive program that models the evolution of arbitrary stretches of time, in order to find an isomorphism
 
 If/when an isomorphism is found among pairs of such programs, that would unify both these fields. 
 
