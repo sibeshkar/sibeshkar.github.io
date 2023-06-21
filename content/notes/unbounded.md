@@ -14,7 +14,7 @@ New discovery requires finding a new underlying explanation for two or more thin
 
 This needs a causal understanding of those things, a world model of both that can be malleably updated on the go, with sparse data, in order to compare and find a common subgraph between them.
 
-Say a digital agent was tasked with discovering a theory of everything - an elusive explanation to unify the discrete small scales and continous large scales in physics. It would need to synthesize hypothesis programs and test them against observations in both quantum mechanics and general relatively. This is a difficult, time-taking process, for a couple of reasons : 
+Say a digital agent was tasked with discovering a theory of everything - the elusive explanation that unifies the discrete small scales and continous large scales in physics. It would need to synthesize hypothesis programs and test them against observations in both quantum mechanics and general relatively. This is a difficult, time-taking process, for a couple of reasons : 
 
 1. The agent would need to poke the world along axes that are not indexed in any training data / are not represented in any geometric space
 2. The symbols for expressing such an explantion likely don't exist yet, and definitely not in sufficient quantity to learn via pattern-matching
