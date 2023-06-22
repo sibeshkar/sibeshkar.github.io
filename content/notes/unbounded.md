@@ -8,7 +8,7 @@ A thought is a program, and so viewed from the lens of information theory, there
 2. Reachability - can eventually generate any program, taking arbitrary steps in the process
 3. Comparison - can compare and select program options using any criteria
 
-While arguably these universalities are at play for all sorts of tasks - from the mundane to the profound - their utility becomes truly clear when one examines the problem of [extreme generalization](https://blog.mayalabs.io/benchmark), or discovering new knowledge that does not resemble anything in past training experience.
+While arguably these universalities are at play for all sorts of tasks - from the mundane to the profound - their utility becomes truly clear when one examines the problem of [extreme L3 generalization](https://blog.mayalabs.io/benchmark), or discovering new knowledge that does not resemble anything in past training experience.
 
 New discovery requires finding a new underlying explanation for two or more things that seem to have nothing in common, and then using that explanation to extrapolate a prediction about how the world works. For example, gravitational waves took ~100 years to verify in experiment, but were an early extrapolated prediction from the equations of general relativity discovered by Einstein.
 
