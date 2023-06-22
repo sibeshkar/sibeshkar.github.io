@@ -21,6 +21,6 @@ Say a digital agent was tasked with discovering a theory of everything - the elu
 3. The tools for building a simulated world model at the right level of abstraction would need to be constructed by the agent
 4. The synthesis process will require compressing the evolution of both QM and GR into one recursive program that models the evolution of arbitrary stretches of time, in order to find an isomorphism
 
-If/when an isomorphism is found among pairs of such programs, that would unify both these fields. Such a common program program will then have the predictive power to make new hypotheses and discoveries we don't know about yet.
+If/when an isomorphism is found among pairs of such programs, that would unify both these fields. Such a common program subgraph will then have the predictive power to make new hypotheses and discoveries we don't know about yet.
 
 Today's methods are nowhere near being capable at such universality. Starting with the right questions is the first step to building them one day.
