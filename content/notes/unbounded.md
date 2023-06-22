@@ -10,9 +10,9 @@ A thought is a program, and so viewed from the lens of information theory, there
 
 While arguably these universalities are at play for all sorts of tasks - from the mundane to the profound - their utility becomes truly clear when one examines the problem of [extreme generalization](https://blog.mayalabs.io/benchmark), or discovering new knowledge that does not resemble anything in past training experience.
 
-New discovery requires finding a new underlying explanation for two or more things that are assumed to have nothing in common, and then using that explanation to extrapolate a prediction about how the world works. For example, gravitational waves were an early prediction from Einstein's discovery of general relativity equations, that took ~100 years to experimentally verify.
+New discovery requires finding a new underlying explanation for two or more things that seem to have nothing in common, and then using that explanation to extrapolate a prediction about how the world works. For example, gravitational waves took ~100 years to verify in experiment, but were an early extrapolated prediction from the equations of general relativity discovered by Einstein.
 
-This needs a causal understanding of unrelated things, a world model of them that can be malleably updated on the go, with sparse data, in order to compare and find a common subgraph between them. 
+This sort of discovery needs a causal understanding of unrelated things, a world model of them that can be malleably updated on the go, with sparse data, in order to compare and find a common subgraph between them. 
 
 Say a digital agent was tasked with discovering a theory of everything - the elusive explanation that unifies the discrete small scales and continous large scales of the reality we perceive. It would need to synthesize hypothesis programs and test them against observations in both quantum mechanics and general relatively. This is a difficult, time-taking process, for a couple of reasons : 
 
