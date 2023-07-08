@@ -24,7 +24,7 @@ making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
 5. [general machine intelligence](https://blog.mayalabs.io/general-machine-intelligence/)
 
 ## modelling physics
-1. [the intuition of david bohm](notes/bohm)
+1. [the non-local intuition of david bohm](notes/bohm)
 2. [the physics of causality](notes/causality)
 3. [this magic trick has no secrets](notes/no-secrets)
 
