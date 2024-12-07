@@ -5,50 +5,51 @@ enableToc: false
 
 This is a list of questions I'm tortured by. Most of the answers might be related and/or build on top of another. Ping me if you're thinking about these too.
 
-## Intelligence : 
+## intelligence 
 
-1. What does it mean for a machine to feel something, or, have a soul?
-2. What will the the first superintelligence in the first few minutes of existence look like? 
-3. What will it care about? 
-4. What will be the kind of predictions / generalization power the first superintelligence will have?
-4. How will intelligent machines and humans co-exist before, and during a post-scarcity society?
-5. How could one align the interests of a superintelligence with those of it's creators?
+1. what does it mean for a machine to feel something, or, have a soul?
+2. what will the the first superintelligence in the first few minutes of existence look like? 
+3. what will it care about? 
+4. what will be the kind of predictions / generalization power the first superintelligence will have?
+4. how will intelligent machines and humans co-exist before, and during a post-scarcity society?
+5. how could one align the interests of a superintelligence with those of it's creators?
 
-## Cognitive Science : 
+## cognitive Science 
 
-1. How does the human brain manage to do so much with so less?
-2. Why does the octopus brain look so much like the mammalian brain in structure and function even though they took different evolutionary paths?
-3. Why and how did we evolve to dream?
-4. How could one way approximate a mind in-silico?
-5. How does the human mind mine abstractions to find relations between unrelated things?
+1. how does the human brain manage to do so much with so less?
+2. why does the octopus brain look so much like the mammalian brain in structure and function even though they took different evolutionary paths?
+3. why and how did we evolve to dream?
+4. how could one way approximate a mind in-silico?
+5. how does the human mind mine abstractions to find relations between unrelated things?
 
-## Space Exploration : 
+## space exploration 
 
-1. What does the tech tree to industrialize/colonize the galaxy look like?
-2. What does the first self-replicating probe to colonize space look like?
-3. What will a step-by-step roadmap to construct the first Dyson swarm around the sun include?
-4. Why does it seem like we are alone in the universe?
+1. what does the tech tree to industrialize/colonize the galaxy look like?
+2. what does the first self-replicating probe to colonize space look like?
+3. what will a step-by-step roadmap to construct the first Dyson swarm around the sun include?
+4. why does it seem like we are alone in the universe?
 
-## Reality : 
+## reality
 
-1. Why and how did the universe start and how will it end, if at all?
-2. What unifies the discrete quantum scale with the continuous macroscopic scales?
-3. How can two quantum particles on two ends of the universe be understood as if they were right on top of each another i.e. non-locality?
-4. What is the true nature of causality in a non-local universe?
-5. How could local perception of space and time emerge from a non-local underlying reality?
-6. What happens when a quantum superposition collapses upon measurement? 
-7. Why would reality be a simulation?
-8. How would one build a universe like ours on a computer?
+1. why and how did the universe start and how will it end, if at all?
+2. what unifies the discrete quantum scale with the continuous macroscopic scales?
+3. how can two quantum particles on two ends of the universe be understood as if they were right on top of each another i.e. non-locality?
+4. what is the true nature of causality in a non-local universe?
+5. how could local perception of space and time emerge from a non-local underlying reality?
+6. what happens when a quantum superposition collapses upon measurement? 
+7. why would reality be a simulation?
+8. how would one build a universe like ours on a computer?
 
-## Metaphysics & Miscellaneous
-1. Why is there something rather than nothing?
-2. Why are we here?
-3. How could we eliminate the last source of scarcity - cycle of life and death?
+## metaphysics / miscellaneous
+
+1. why is there something rather than nothing?
+2. why are we here?
+3. how could we eliminate the last source of scarcity - cycle of life and death?
 What straight line can we draw to explain the human condition, and how does it extrapolate into the future?
-4. How did the first self-replicating living organism come into being? 
-5. How would one create life from scratch in sandbox, say Minecraft?
-6. Is there any possible character decision tree which would allow CJ from GTA San Andreas to break out of the game?
-7. If you were living at a certain level of a Mandelbrot set, how would you figure out the function which generated the reality around you?
+4. how did the first self-replicating living organism come into being? 
+5. how would one create life from scratch in sandbox, say Minecraft?
+6. is there any possible character decision tree which would allow CJ from GTA San Andreas to break out of the game?
+7. if you were living at a certain level of a Mandelbrot set, how would you figure out the function which generated the reality around you?
 
 
  
