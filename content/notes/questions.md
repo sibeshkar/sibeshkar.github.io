@@ -16,7 +16,7 @@ Intelligence :
 
 Cognitive Science : 
 1. How does the human brain manage to do so much with so less?
-2. Why does the octopus brain look so much like the mammalian brain in structure and function even though they too different evolutionary paths?
+2. Why does the octopus brain look so much like the mammalian brain in structure and function even though they took different evolutionary paths?
 3. Why and how did we evolve to dream?
 4. How could one way approximate a mind in-silico?
 5. How does the human mind mine abstractions to find relations between unrelated things?
@@ -24,13 +24,13 @@ Cognitive Science :
 Space Exploration : 
 1. What does the tech tree to industrialize/colonize the galaxy look like?
 2. What does the first self-replicating probe to colonize space look like?
-3. Why does it seem like we are alone?
+3. Why does it seem like we are alone in the universe?
 
 Reality : 
 
 1. Why and how did the universe start and how will it end, if at all?
-2. What unifies the discrete quantum scale with the continuous macro scales?
-3. How can two quantum particles on two ends of the universe be understood as if they were right on top of each another?
+2. What unifies the discrete quantum scale with the continuous macroscopic scales?
+3. How can two quantum particles on two ends of the universe be understood as if they were right on top of each another i.e. non-locality?
 4. What is the true nature of causality in a non-local universe?
 5. How could local perception of space and time emerge from a non-local underlying reality?
 6. What happens when a quantum superposition collapses upon measurement? 

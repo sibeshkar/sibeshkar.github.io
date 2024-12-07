@@ -14,8 +14,8 @@ areas of interest:
 5. game engines
 6. graphic novels
 
-making time to grok fringe theories : sibesh[at]mayalabs[dot]io. 
-always up to talk about [these questions](notes/nd/purpose)
+always up to chat about [these questions](notes/questions) & making time to grok other fringe theories : sibesh[at]mayalabs[dot]io. 
+
 
 ## machine intelligence
 1. [the parable of the robot pirate](/notes/pirate)
