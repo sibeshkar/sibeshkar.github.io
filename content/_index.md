@@ -14,7 +14,8 @@ areas of interest:
 5. game engines
 6. graphic novels
 
-making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
+making time to grok fringe theories : sibesh[at]mayalabs[dot]io. 
+always up to talk about [these questions](notes/nd/purpose)
 
 ## machine intelligence
 1. [the parable of the robot pirate](/notes/pirate)
@@ -28,8 +29,9 @@ making time to grok fringe theories : sibesh[at]mayalabs[dot]io.
 2. [the physics of causality](notes/causality)
 3. [this magic trick has no secrets](notes/no-secrets)
 
-## non-dualism
-1. [purpose](notes/nd/purpose)
+## purpose
+1. [questions](notes/questions)
+2. [non-dualism](notes/purpose)
 
 
 
