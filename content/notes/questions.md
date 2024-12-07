@@ -45,11 +45,11 @@ This is a list of questions I'm tortured by. Most of the answers might be relate
 1. why is there something rather than nothing?
 2. why are we here?
 3. how could we eliminate the last source of scarcity - cycle of life and death?
-What straight line can we draw to explain the human condition, and how does it extrapolate into the future?
-4. how did the first self-replicating living organism come into being? 
-5. how would one create life from scratch in sandbox, say Minecraft?
-6. is there any possible character decision tree which would allow CJ from GTA San Andreas to break out of the game?
-7. if you were living at a certain level of a Mandelbrot set, how would you figure out the function which generated the reality around you?
+4. what straight line can we draw to explain the human condition, and how does it extrapolate into the future?
+5. how did the first self-replicating living organism come into being? 
+6. how would one create life from scratch in sandbox, say Minecraft?
+7. is there any possible character decision tree which would allow CJ from GTA San Andreas to break out of the game?
+8. if you were living at a certain level of a Mandelbrot set, how would you figure out the function which generated the reality around you?
 
 
  
