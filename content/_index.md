@@ -31,7 +31,7 @@ always up to talk about [these questions](notes/nd/purpose)
 
 ## purpose
 1. [questions](notes/questions)
-2. [non-dualism](notes/purpose)
+2. [non-dualism](notes/nd)
 
 
 

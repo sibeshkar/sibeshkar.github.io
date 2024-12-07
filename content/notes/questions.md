@@ -19,6 +19,7 @@ Cognitive Science :
 2. Why does the octopus brain look so much like the mammalian brain in structure and function even though they too different evolutionary paths?
 3. Why and how did we evolve to dream?
 4. How could one way approximate a mind in-silico?
+5. How does the human mind mine abstractions to find relations between unrelated things?
 
 Space Exploration : 
 1. What does the tech tree to industrialize/colonize the galaxy look like?
