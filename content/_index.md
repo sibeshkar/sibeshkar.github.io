@@ -14,7 +14,7 @@ areas of interest:
 5. game engines
 6. graphic novels
 
-always up to chat about [these questions](notes/questions) & making time to grok other fringe theories : sibesh[at]mayalabs[dot]io. 
+always up to discuss these [questions](notes/questions). making time to grok other fringe theories : sibesh[at]mayalabs[dot]io. 
 
 
 ## machine intelligence
