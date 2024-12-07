@@ -5,7 +5,7 @@ enableToc: false
 
 This is a list of questions I'm tortured by. Most of the answers might be related and/or build on top of another. Ping me if you're thinking about these too.
 
-### Intelligence : 
+## Intelligence : 
 
 1. What does it mean for a machine to feel something, or, have a soul?
 2. What will the the first superintelligence in the first few minutes of existence look like? 
@@ -14,7 +14,7 @@ This is a list of questions I'm tortured by. Most of the answers might be relate
 4. How will intelligent machines and humans co-exist before, and during a post-scarcity society?
 5. How could one align the interests of a superintelligence with those of it's creators?
 
-### Cognitive Science : 
+## Cognitive Science : 
 
 1. How does the human brain manage to do so much with so less?
 2. Why does the octopus brain look so much like the mammalian brain in structure and function even though they took different evolutionary paths?
@@ -22,14 +22,14 @@ This is a list of questions I'm tortured by. Most of the answers might be relate
 4. How could one way approximate a mind in-silico?
 5. How does the human mind mine abstractions to find relations between unrelated things?
 
-### Space Exploration : 
+## Space Exploration : 
 
 1. What does the tech tree to industrialize/colonize the galaxy look like?
 2. What does the first self-replicating probe to colonize space look like?
 3. What will a step-by-step roadmap to construct the first Dyson swarm around the sun include?
 4. Why does it seem like we are alone in the universe?
 
-Reality : 
+## Reality : 
 
 1. Why and how did the universe start and how will it end, if at all?
 2. What unifies the discrete quantum scale with the continuous macroscopic scales?
@@ -40,7 +40,7 @@ Reality :
 7. Why would reality be a simulation?
 8. How would one build a universe like ours on a computer?
 
-Metaphysics & Miscellaneous
+## Metaphysics & Miscellaneous
 1. Why is there something rather than nothing?
 2. Why are we here?
 3. How could we eliminate the last source of scarcity - cycle of life and death?
