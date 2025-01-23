@@ -24,6 +24,7 @@ always up to discuss these [questions](notes/questions). making time to grok oth
 4. [benchmarking generalization in machines](https://blog.mayalabs.io/benchmark/)
 5. [general machine intelligence](https://blog.mayalabs.io/general-machine-intelligence/)
 6. [biological intelligence & generalization](https://x.com/sibeshkar/status/1871525755387326782)
+1. [on an alien planet](/notes/alien)
 
 ## modelling physics
 1. [the non-local intuition of david bohm](notes/bohm)
