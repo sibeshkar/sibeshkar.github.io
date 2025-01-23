@@ -18,13 +18,14 @@ always up to discuss these [questions](notes/questions). making time to grok oth
 
 
 ## machine intelligence
-1. [the parable of the robot pirate](/notes/pirate)
-2. [unbounded generality](/notes/unbounded)
-3. [on function approximation](https://twitter.com/sibeshkar/status/1615804999463997441)
-4. [benchmarking generalization in machines](https://blog.mayalabs.io/benchmark/)
-5. [general machine intelligence](https://blog.mayalabs.io/general-machine-intelligence/)
-6. [biological intelligence & generalization](https://x.com/sibeshkar/status/1871525755387326782)
-1. [on an alien planet](/notes/alien)
+1. [public list of predictions](https://x.com/sibeshkar/status/1709316722359198017)
+2. [the parable of the robot pirate](/notes/pirate)
+3. [unbounded generality](/notes/unbounded)
+4. [on function approximation](https://twitter.com/sibeshkar/status/1615804999463997441)
+5. [benchmarking generalization in machines](https://blog.mayalabs.io/benchmark/)
+6. [general machine intelligence](https://blog.mayalabs.io/general-machine-intelligence/)
+7. [biological intelligence & generalization](https://x.com/sibeshkar/status/1871525755387326782)
+8. [on an alien planet](/notes/alien)
 
 ## modelling physics
 1. [the non-local intuition of david bohm](notes/bohm)

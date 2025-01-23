@@ -5,7 +5,7 @@ date : 24/01/2024
 
 A good way to determine what the first thinking machine will look like is to think about what it will need to do to adapt and survive on an alien planet.
 
-An 'alien planet' is any new environment - the deep sea mariana trench was alien to him, yet James Cameron, an evolved primate with land-based mammalian training, could engineer his way down to it.
+An 'alien planet' is any new environment - the deep sea Mariana Trench was alien to him, yet James Cameron, an evolved primate with land-based mammalian training, could engineer his way down to it.
 
 At the extremes, one may think of a yet undiscovered planet that exists in no internet corpus of today. Something right out of Netflix's Alien Worlds.
 
