@@ -26,6 +26,7 @@ always up to discuss these [questions](notes/questions). making time to grok oth
 6. [general machine intelligence](https://blog.mayalabs.io/general-machine-intelligence/)
 7. [biological intelligence & generalization](https://x.com/sibeshkar/status/1871525755387326782)
 8. [on an alien planet](/notes/alien)
+9. [on economic growth and machine intelligence](/notes/economy)
 
 ## modelling physics
 1. [the non-local intuition of david bohm](notes/bohm)
