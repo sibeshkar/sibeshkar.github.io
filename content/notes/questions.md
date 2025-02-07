@@ -22,6 +22,15 @@ This is a list of questions I'm tortured by. Most of the answers might be relate
 4. how could one way approximate a mind in-silico?
 5. how does the human mind mine abstractions to find relations between unrelated things?
 
+## language
+
+1. why is it that only humans are able to form accumulating state over generations via language?
+2. why can't feral children who spend their early years in the wild acquire language when they return to civilization?
+3. why and how could Panini discover a rigorous formal generative grammar for a organic, spoken, chaotic oral language?
+4. what happens in the brain when you read a joke, a story, or a sentence that evokes a strong a emotion?
+5. could thinking machines communicate, extend and form accumulating state in ways better than lossy context-sensitive grammars?
+6. what are the whales talking to each other about?
+
 ## space exploration 
 
 1. what does the tech tree to industrialize/colonize the galaxy look like?
