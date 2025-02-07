@@ -30,6 +30,8 @@ This is a list of questions I'm tortured by. Most of the answers might be relate
 4. what happens in the brain when you read a joke, a story, or a sentence that evokes a strong a emotion?
 5. could thinking machines communicate, extend and form accumulating state in ways better than lossy context-sensitive grammars?
 6. what are the whales talking to each other about?
+7. Sapir–Whorf hypothesis : mechanistically, why/how could language effect the perception of reality/time? 
+8. Are there custom languages that could be designed for thinking about particular problems (like CNC coding logic)?
 
 ## space exploration 
 
