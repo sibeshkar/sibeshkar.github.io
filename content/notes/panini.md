@@ -22,7 +22,7 @@ Pāṇini's foresight in designing these rules means they have stood the test of
 
 Of course, Pāṇini was working with Sanskrit, whose underlying structure makes it less context-sensitive than English and more amenable to such decomposition. But for the sake of comparison, his methods if automated and applied to the [Hutter compression prize](http://prize.hutter1.net/) dataset could compress 1GB of Wikipedia data to a few kilobytes (down from the current record of 110MB as of Feb 2025). A digital superintelligence in action, would very much employ what I call "Pāṇini's razor", applying the dual techniques of abstraction and economy ruthlessly to thousands of noisy signals of various forms and fidelity, reducing them by many orders of magnitude into succinct set of formal predicates - to derive an explanation unchanging in time. Like breaking down a house into basic lego-like blocks and then building a new house from it back gain, a machine like this could then combine these discovered reusable concepts on the fly using abstracted transformation rules to generalize to any unknown. 
 
-This makes the message on the wall clear - to build powerful thinking machines of the future that can compress information and generalize better than humans do, we must dig up the forgotten relic that is Pāṇini's razor, and study it in great detail. 
+This makes clear the message on the wall - to build powerful thinking machines of the future that can compress information and generalize better than humans do, we must dig up the forgotten relic that is Pāṇini's razor, and study it in great detail. 
 
 ## Pāṇini's Razor
 
