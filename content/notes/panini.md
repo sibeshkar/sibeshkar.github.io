@@ -2,7 +2,7 @@
 title : The Pāṇinian Approach to World Modelling
 date : 11/02/2025
 ---
-> "the simplest of several competing explanations is likely to be the correct one" - Occam's Razor
+> "The simplest of several competing explanations is likely to be the correct one" - Occam's Razor
 
 ## Intelligence as compression
 
