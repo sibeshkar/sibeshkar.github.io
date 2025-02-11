@@ -27,6 +27,7 @@ always up to discuss these [questions](notes/questions). making time to grok oth
 7. [biological intelligence & generalization](https://x.com/sibeshkar/status/1871525755387326782)
 8. [on an alien planet](/notes/alien)
 9. [charkhas, ai & economic growth](/notes/economy)
+10.[the Pāṇinian approach to world modelling](/notes/economy)
 
 ## modelling physics
 1. [the non-local intuition of david bohm](notes/bohm)
