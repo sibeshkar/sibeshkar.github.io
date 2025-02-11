@@ -4,6 +4,8 @@ date : 11/02/2025
 ---
 > "the simplest of several competing explanations is likely to be the correct one" - Occam's Razor
 
+## Intelligence is Compression
+
 Let’s examine a modified version of Searle’s Chinese room experiment. Suppose we have 5.6TB of text data, ethically scraped from the internet, broken into word pairs (2-grams) stored in a lookup table. When asked to complete "I was going to wear a...", it might output "a lot" because "a lot" appears more frequently than "a shirt" or "a skirt". A 3-gram model, using two words of context, improves accuracy but still fails in cases like "It’s raining outside, wear a...". Both are examples of generative models: they predict the next word based on patterns in the data.
 
 Large Language Models (LLMs) like DeepSeek, GPT, or Claude are far more sophisticated generative models. They use thousands of tokens of context and the 'attention' mechanism to focus on relevant parts of the input to 'query' with.  It's not just storing a memorizing table of what comes after what, but using compute to extract and store a hiearchy of reusable chunks of information in it's layers. A result is that the weights of Llama-65B model occupy around 365GB on disk, down from the 5.6TB it's trained on (a 14x compression!)[1]. We can see that generalization ability and data efficiency are the same thing: generalization is the result of squeezing every bit of information out of your datapoints, understanding all correlations and causations, and connecting all the dots. “Squeezing every bit of information” is meant literally: generalization is the very direct result of compression. 
@@ -18,7 +20,7 @@ There is a small pool of postdoctoral Sanskrit scholars who truly are fortunate 
 
 Pāṇini's foresight in designing these rules means they have stood the test of time - not only expressive enough to explain the knowledge of the past at the time, but have also been able to generalize to phrases and sentences in the future since then. His work is recognized as the first formal system known to man, doing to linguistic reality what Euler would go on to do for geometry, but it would be no understatement to call it the most impressive human act of knowledge compression till date. It is the only example we have access to of true optimal Solomonoff induction, finding the shortest executable archive of a dataset, as evidenced by it's durability over years. A digital superintelligence in action, would very much employ what I call "Pāṇini's razor", applying the dual method of abstraction of economy ruthlessly to thousands of noisy signals of various forms and fidelity, reducing them to succinct set of formal predicates, an explanation unchanging in time. Like breaking down a house into basic lego-like blocks and then building a new house from it back gain, a machine like this could then combine the reusable concepts on the fly using abstracted transformation rules to generalize to any unknown. 
 
-### Pāṇini's Razor
+## Pāṇini's Razor
 
 [to be continued...]
 
