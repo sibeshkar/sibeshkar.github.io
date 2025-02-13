@@ -613,19 +613,25 @@ In machine learning terms, this is closely related to the concept of "minimum de
 1. The size of the model (our grammar rules)
 2. The size of the data when encoded using the model (our inputs)
 
-This is exactly what we've demonstrated with our code examples above and what Panini achieved with Sanskrit. His work wasn't just about language - it was about discovering a universal principle of intelligence that we're still applying today.
+This principle was later formalized by Ray Solomonoff in his theory of universal inductive inference. Solomonoff showed that the best prediction for future data comes from the shortest computer program that can generate the observed data. In other words, finding the most compressed representation of data (like Panini's grammar rules) isn't just an efficiency trick - it's mathematically optimal for prediction and understanding.
+
+The connection to Solomonoff induction helps explain why Panini's grammar has remained useful for over two millennia: by finding the shortest possible rule set that could generate Sanskrit, he wasn't just being clever with compression - he was discovering the true underlying structure of the language. This is exactly what Solomonoff's theory predicts: the shortest description that works is likely to be the correct one.
+
+This is exactly what we've demonstrated with our code examples above and what Panini achieved with Sanskrit. His work isn't just limited to modelling the spoken linguistic reality of the time - but was about discovering a universal principle of intelligence that holds the key to building thinking machines of the future.
 
 ## Why This Matters
 
 This connection between compression and understanding has profound implications:
 
 1. **Learning** is essentially finding better grammars for observed data
-2. **Intelligence** can be measured by ability to find compact descriptions
+2. **Intelligence** can be measured by ability to find compact descriptions in the fewest observations (e.g. by looking at the least number of Fibonacci numbers)
 3. **Understanding** means finding the true generative process
 
 When a child learns physics, they're not memorizing the position of every object they've seen - they're learning the grammar of motion. When we understand language, we don't memorize every possible sentence - we learn the rules that generate valid ones. When Panini created his grammar, he wasn't just documenting Sanskrit - he was discovering a fundamental approach to understanding that we can apply to everything from ancient languages to modern video games.
 
 This is why generative grammars are so powerful: they don't just compress data, they capture the underlying processes that created that data. Whether it's a sequence of numbers, a set of sentences, or a video game, the principle remains the same: understanding the rules of generation is the key to both compression and comprehension.
+
+> "Riemann invented his geometries before Einstein had a use for them; the physics of our universe is not that complicated in an absolute sense.  A Bayesian superintelligence, hooked up to a webcam, would invent General Relativity as a hypothesis—perhaps not the dominant hypothesis, compared to Newtonian mechanics, but still a hypothesis under direct consideration—by the time it had seen the third frame of a falling apple.  It might guess it from the first frame, if it saw the statics of a bent blade of grass." - E. Yudkowsky
 
 ## References
 
