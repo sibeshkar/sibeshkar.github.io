@@ -68,7 +68,7 @@ We'll use two main classes to explore this idea:
 - `Rule`: Represents a production rule in our grammar, like "S -> A B" meaning "S can be replaced with A followed by B"
 - `Grammar`: A collection of rules that can generate patterns, with methods to calculate how many bits we need to store it
 
-You can find the implementation details in [`grammar.py`](grammar.py).
+You can find the implementation details in [`grammar.py`](/code/grammar.py).
 
 ## Approach 1: Naive Grammar - Simple Memorization
 
