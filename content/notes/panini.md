@@ -486,7 +486,7 @@ This approach becomes particularly powerful when we apply it to modern systems t
 
 ## Extending to State Machines: The Case of Pong
 
-The real power of Panini's approach to generative grammars becomes clear when we apply it to complex systems like video games. Just as Panini found that all of Sanskrit could be generated from ~4,000 rules, we'll see how an entire game can be generated from just 8 rules. Let's look at how we could compress a recording of a Pong game:
+The real power of Panini's compression approach to generative grammars becomes clear when we apply it to modelling more complex systems with real-world state machines - like video games. Just as Panini found that all of Sanskrit could be generated from ~4,000 rules, we'll see how an entire game can be generated from just 8 rules. Let's look at how we could compress a recording of a Pong game:
 
 ```python
 class PongGrammar:
