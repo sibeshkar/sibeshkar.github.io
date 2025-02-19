@@ -319,29 +319,23 @@ context_examples = [
 ]
 ```
 
-This context sensitivity means:
-1. The same word can have different meanings based on surrounding words
-2. The same grammatical structure can have different interpretations
-3. Valid combinations depend on semantic meaning, not just syntax
+This context sensitivity means the same word can have different meanings based on surrounding words, the same grammatical structure can have different interpretations, and valid combinations depend on semantic meaning, not just syntax.  
 
-This limits how much we can compress English using pure grammatical rules. Our compression ratio of 22.93x was possible because we used a very restricted subset of English. In the general case, we would need:
-- Semantic context rules
-- Word sense disambiguation
-- Complex dependency structures
+This limits how much we can compress English using pure grammatical rules. Our compression ratio of 22.93x was possible because we used a very restricted subset of English. In the general case, we would need better rules about how context influences meaning, better word sense disambiguation etc.
 
-This is why formal languages (like programming languages) and some natural languages with more rigid structure can achieve better compression ratios.
+This is why formal languages (like programming languages) and some natural languages with more rigid structure achieve better compression ratios.
 
-### Sanskrit: A More Compressible Language
+### A More Compressible Language
 
-Sanskrit, in contrast, was designed with formal grammar in mind. Its structure is more amenable to rule-based generation because:
+some more ancient languages like Sanskrit (and Greek) turn out to have a structure more amenable to rule-based generation. This isbecause:
 1. Words are derived from root forms using explicit rules
 2. Compound words follow clear compositional rules
 3. Sentence structure has more rigid constraints
 4. Word meanings are more systematically related to their roots
 
-This makes Sanskrit more like our Fibonacci sequence - there are clear generative rules that can produce valid constructions.
+This makes a language like Sanskrit more like our Fibonacci sequence - there are clear generative rules that can produce valid constructions.
 
-### Sanskrit Examples: Panini's Method in Action
+### Panini's Method in Action
 
 Let's look at some concrete examples of how Panini's grammar generates Sanskrit words and sentences:
 
@@ -361,7 +355,7 @@ Let's look at some concrete examples of how Panini's grammar generates Sanskrit 
    - bhavasi (you are)
    - bhavati (he/she/it is)
 
-   The transformation bhū → bhav is handled by another rule (guṇa strengthening), showing how Panini's grammar captures phonological changes systematically.
+   The transformation bhū → bhav is handled by another rule (guṇa strengthening). When the root 'bhū' combines with certain suffixes, this rule changes the 'ū' sound to 'av', demonstrating how Panini's system handles systematic sound (phonological) changes that occur when morphemes combine.
 
 2. **Compound Word Formation**:
    ```python
@@ -416,9 +410,9 @@ The power of Panini's system comes from how these rules interact:
        Rule('EXCEPTION', ['if_final_position', 'skip_sandhi'])
    ]
    ```
-   These meta-rules ensure correct application order and handle exceptions systematically.
+These meta-rules ensure correct application order and handle exceptions systematically.
 
-This systematic approach achieves remarkable compression because:
+We see Panini's approach compresses his original corpus by many orders of magnitude by systematically doing *more* with *less*:
 1. Each rule can generate many forms (e.g., one verb root rule generates hundreds of conjugations)
 2. Rules interact to produce complex forms (like compounds and derivatives)
 3. Meta-rules handle exceptions without needing separate rules for each case
@@ -432,44 +426,31 @@ For example, from just the root "bhū" and a set of rules, Panini's grammar can 
 
 This is analogous to our Fibonacci example, where one simple rule (Fn = Fn-1 + Fn-2) generates an infinite sequence. But Panini's grammar goes further, handling multiple interacting patterns simultaneously while maintaining semantic coherence.
 
+This brings us to a crucial insight about building machine intelligence. The key to achieving a ~5000:1 compression ratio like Panini did, lies not in the lookup tables of Searle's Chinese Room, but in the process that created those tables - the hidden Panini-like compressor that could derive rules like the one above through the repeated application of abstraction and economy. Let's next try to understand what making an automated grammarian might look like.
+
 ## From Numbers to Panini: The First Computational Grammarian
 
-After seeing how we derived grammars for the Fibonacci sequence and explored language patterns, let's look at a remarkable historical parallel: Panini's Ashtadhyayi, written around 500 BCE. This ancient work presents Sanskrit grammar as a generative system, much like our examples above.
+How might Panini have done it? let's look at our own process of compressing the Fibonacci sequence:
 
-### How Panini Might Have Done It
-
-Looking at our own process of grammar derivation:
 1. Start with examples (like our Fibonacci numbers or sentences)
 2. Look for patterns (like our pattern recognition phase)
-3. Abstract to rules (like our final grammars)
+3. Abstract to rules (like our final recursive sgrammars)
 
 Panini likely followed a similar path:
-1. **Data Collection**: Gathered thousands of Sanskrit utterances
+1. **Data Collection**: Gathered/recorded thousands of source material (~10,000 hours of spoken Sanskrit)
 2. **Pattern Recognition**: Identified recurring structures
-3. **Rule Abstraction**: Derived minimal generative rules
-4. **Optimization**: Compressed rules for memorization
+3. **Rule Abstraction**: Derived minimal generative rules, meta-rules, and exceptions
+4. **Optimization**: Compressed rules for memorization (~reduced to 2 hours of ~4000 rules that can be memorized)
 
-His grammar achieves remarkable compression:
-- ~4,000 rules can generate all of Sanskrit
-- Rules are so concise they fit in ~40 pages
-- Can generate millions of valid word forms
-- Includes phonological, morphological, and syntactic levels
+In the case of the fibonacci sequence, the method achieves a compression ratio of 189.21x, in the case of Sanskrit, Panini's grammar achieves a compression ratio of ~5000:1:.
 
-### The First "Compression as Intelligence"
+What makes Panini's work particularly relevant to our discussion is that it demonstrates the same principles we've discovered with compressing Fibonacci sequences:
 
-What makes Panini's work particularly relevant to our discussion is that it demonstrates the same principles we've discovered:
+1. **Cognitive Progression**: Like our Fibonacci example progressing from naive to abstract, from memorizing words to understanding derivation rules
 
-1. **Cognitive Progression**:
-   - Like our Fibonacci example progressing from naive to abstract
-   - From memorizing words to understanding derivation rules
+2. **Minimal Description**: Like our abstract Fibonacci grammar using just 3 rules, his grammar captures an entire language in ~4,000 rules
 
-2. **Minimal Description**:
-   - Like our abstract Fibonacci grammar using just 3 rules
-   - His grammar captures an entire language in ~4,000 rules
-
-3. **Generative Power**:
-   - Like our abstract grammars generating infinite sequences
-   - His system can generate all valid Sanskrit constructions
+3. **Generative Power**: Like our abstract grammars generating infinite sequences, his system can generate all valid Sanskrit constructions
 
 ### From Ancient Grammar to Modern Systems
 
@@ -569,7 +550,7 @@ To store a 5-minute Pong game:
    - Compressed: 37.2 KB
    - Ratio: 49.18x better
 
-2. Full Visual Approach (Every Pixel)")
+2. Full Visual Approach (Every Pixel)"
    - Raw data: 17,304.7 MB
    - Compressed: 37.2 KB
    - Ratio: 476,671.45x better
@@ -601,7 +582,7 @@ The relationship between compression and intelligence becomes clear when we look
 
 1. For Fibonacci, understanding the recursive relationship led to 189.21x compression
 2. For language, recognizing sentence structure led to 22.93x compression (limited by English's context sensitivity)
-3. For Sanskrit, Panini's grammar achieved remarkable compression of an entire language with just ~4,000 rules
+3. For Sanskrit, Panini's grammar achieved remarkable compression of an entire language with just ~4,000 rules (~5000:1 compression ratio)
 4. For Pong, applying Panini's principles to game physics led to 476,671.45x compression
 
 This progression - from numbers to language to video games - shows how the same fundamental principles of finding minimal generative descriptions apply across domains. This is why compression can be seen as a measure of intelligence: the better we understand a system, the more efficiently we can describe it.
@@ -610,23 +591,29 @@ In machine learning terms, this is closely related to the concept of "minimum de
 1. The size of the model (our grammar rules)
 2. The size of the data when encoded using the model (our inputs)
 
-This principle was later formalized by Ray Solomonoff in his theory of universal inductive inference. Solomonoff showed that the best prediction for future data comes from the shortest computer program that can generate the observed data. In other words, finding the most compressed representation of data (like Panini's grammar rules) isn't just an efficiency trick - it's mathematically optimal for prediction and understanding.
+This principle is formalized by Ray Solomonoff in his theory of universal inductive inference. 
 
-The connection to Solomonoff induction helps explain why Panini's grammar has remained useful for over two millennia: by finding the shortest possible rule set that could generate Sanskrit, he wasn't just being clever with compression - he was discovering the true underlying structure of the language. This is exactly what Solomonoff's theory predicts: the shortest description that works is likely to be the correct one.
+> "If the universe is generated by an algorithm, then observations of that universe, encoded as a dataset, are best predicted by the smallest executable archive of that dataset"
 
-This is exactly what we've demonstrated with our code examples above and what Panini achieved with Sanskrit. His work isn't just limited to modelling the spoken linguistic reality of the time - but was about discovering a universal principle of intelligence that holds the key to building thinking machines of the future.
+In other words, finding the most compressed representation of data (like Panini's grammar rules) isn't just an efficiency trick - it's mathematically optimal for prediction and understanding.
+
+The connection to Solomonoff induction helps explain why Panini's grammar has remained useful for over two millennia: by finding the shortest possible rule set that could generate Sanskrit, he wasn't just being clever with compression - he was discovering the true underlying structure of the language. 
+
+Indeed, this is what we've demonstrated with our code examples above and what Panini achieved with Sanskrit. His work isn't just limited to modelling the spoken linguistic reality of the time - but could well be about discovering a universal principle of intelligence that may hold the key to building thinking machines of the future.
 
 ## Why This Matters
 
 This connection between compression and understanding has profound implications:
 
-1. **Learning** is essentially finding better grammars for observed data
-2. **Intelligence** can be measured by ability to find compact descriptions in the fewest observations (e.g. by looking at the least number of Fibonacci numbers)
-3. **Understanding** means finding the true generative process
+**Learning** is essentially finding better abstract grammars for observed data
+
+**Intelligence** can be measured by ability to find compact descriptions in the fewest observations (e.g. by looking at the least number of Fibonacci numbers)
+
+**Understanding** means finding the true generative process that produces past and future observations
 
 When a child learns physics, they're not memorizing the position of every object they've seen - they're learning the grammar of motion. When we understand language, we don't memorize every possible sentence - we learn the rules that generate valid ones. When Panini created his grammar, he wasn't just documenting Sanskrit - he was discovering a fundamental approach to understanding that we can apply to everything from ancient languages to modern video games.
 
-This is why generative grammars are so powerful: they don't just compress data, they capture the underlying processes that created that data. Whether it's a sequence of numbers, a set of sentences, or a video game, the principle remains the same: understanding the rules of generation is the key to both compression and comprehension.
+This is why Panini's approach is so powerful: it reveals that true understand is not just in blind statistical compression, but in deducing the exact underlying processes that created that data. Whether it's a sequence of numbers, a set of sentences, or a video game, the principle remains the same: understanding the rules of generation is the key to both compression and comprehension. To understand the universe we must build a twin of it.
 
 > "Riemann invented his geometries before Einstein had a use for them; the physics of our universe is not that complicated in an absolute sense.  A Bayesian superintelligence, hooked up to a webcam, would invent General Relativity as a hypothesis—perhaps not the dominant hypothesis, compared to Newtonian mechanics, but still a hypothesis under direct consideration—by the time it had seen the third frame of a falling apple.  It might guess it from the first frame, if it saw the statics of a bent blade of grass." - E. Yudkowsky
 
