@@ -428,25 +428,25 @@ This is analogous to our Fibonacci example, where one simple rule (Fn = Fn-1 + F
 
 How is Pāṇini's ~4000 rule set a compressed generative model like one would understand an LLM to be? Imagine prompting an LLM like ChatGPT with an empty prompt, and letting it run for a few paragraphs. If you did this a trillion times, with slightly different temperature settings, you would eventually recover a slightly morphed version of the entire corpus it was trained on. 'Model distillation' is the industry term for this common practice, used to copy parts of another LLM's training set. In a similar manner, if you were to run the state machine described in the *Aṣṭādhyāyī* a billion times with random inputs, you would eventually recover all the Vedic hymns, mantras, and Brahmanas it compresses, include the different variations of spoken Sanskrit. Of course, just like you guide an LLM's output by including an input prompt, you would need to guide the state machine in the *Aṣṭādhyāyī* to generate the *kind* of sentences you wanted. But the complexity of the original source remains contained in the abstracted, highly compressed rule set.
 
-This brings us to a crucial insight about building machine intelligence. The key to achieving a ~5000:1 compression ratio like Panini did, lies not in the lookup tables of Searle's Chinese Room, but in the process that created those tables - the hidden Panini-like compressor that could derive rules like the one above through the repeated application of abstraction and economy. Let's next try to understand what making an automated grammarian might look like.
+This brings us to a crucial insight about building machine intelligence. The key to achieving a ~5000:1 compression ratio like Pāṇini did, lies not in the lookup tables of Searle's Chinese Room, but in the process that created those tables - the hidden Pāṇini-like compressor that could derive rules like the one above through the repeated application of abstraction and economy. Let's next try to understand what making an automated grammarian might look like.
 
-## From Numbers to Panini: The First Computational Grammarian
+## From Numbers to Pāṇini: The First Computational Grammarian
 
-How might Panini have done it? let's look at our own process of compressing the Fibonacci sequence:
+How might Pāṇini have done it? let's look at our own process of compressing the Fibonacci sequence:
 
 1. Start with examples (like our Fibonacci numbers or sentences)
 2. Look for patterns (like our pattern recognition phase)
 3. Abstract to rules (like our final recursive sgrammars)
 
-Panini likely followed a similar path:
+Pāṇini likely followed a similar path:
 1. **Data Collection**: Gathered/recorded thousands of source material (~10,000 hours of spoken Sanskrit)
 2. **Pattern Recognition**: Identified recurring structures
 3. **Rule Abstraction**: Derived minimal generative rules, meta-rules, and exceptions
 4. **Optimization**: Compressed rules for memorization (~reduced to 2 hours of ~4000 rules that can be memorized)
 
-In the case of the fibonacci sequence, the method achieves a compression ratio of 189.21x, in the case of Sanskrit, Panini's grammar achieves a compression ratio of ~5000:1:.
+In the case of the fibonacci sequence, the method achieves a compression ratio of 189.21x, in the case of Sanskrit, Pāṇini's grammar achieves a compression ratio of ~5000:1:.
 
-What makes Panini's work particularly relevant to our discussion is that it demonstrates the same principles we've discovered with compressing Fibonacci sequences:
+What makes Pāṇini's work particularly relevant to our discussion is that it demonstrates the same principles we've discovered with compressing Fibonacci sequences:
 
 1. **Cognitive Progression**: Like our Fibonacci example progressing from naive to abstract, from memorizing words to understanding derivation rules
 
@@ -456,9 +456,9 @@ What makes Panini's work particularly relevant to our discussion is that it demo
 
 ## From Ancient Grammar to Modern Systems : The Case of Pong
 
-While Panini's work on Sanskrit grammar might seem purely academic, this method of identifying patterns, finding minimal rules, and using them to generate valid outputs can be applied far beyond language - it provides a universal framework for understanding and compressing any complex system, allowing us to generate infinite valid states from a small set of core rules.
+While Pāṇini's work on Sanskrit grammar might seem purely academic, this method of identifying patterns, finding minimal rules, and using them to generate valid outputs can be applied far beyond language - it provides a universal framework for understanding and compressing any complex system, allowing us to generate infinite valid states from a small set of core rules.
 
-The real power of Panini's compression approach to generative grammars becomes clear when we apply it to modelling more complex systems with real-world state machines - like video games. Just as Panini found that all of Sanskrit could be generated from ~4,000 rules, we'll see how an entire game can be generated from just 8 rules. Let's look at how we could compress a recording of a Pong game:
+The real power of Pāṇini's compression approach to generative grammars becomes clear when we apply it to modelling more complex systems with real-world state machines - like video games. Just as Pāṇini found that all of Sanskrit could be generated from ~4,000 rules, we'll see how an entire game can be generated from just 8 rules. Let's look at how we could compress a recording of a Pong game:
 
 ```python
 class PongGrammar:
@@ -576,8 +576,8 @@ The relationship between compression and intelligence becomes clear when we look
 
 1. For Fibonacci, understanding the recursive relationship led to 189.21x compression
 2. For the English sentences, recognizing sentence structure led to 22.93x compression (limited by English's context sensitivity)
-3. For Sanskrit, Panini's grammar achieved remarkable compression of an entire language with just ~4,000 rules (~5000:1 compression ratio)
-4. For Pong, applying Panini's principles to game physics led to 476,671.45x compression
+3. For Sanskrit, Pāṇini's grammar achieved remarkable compression of an entire language with just ~4,000 rules (~5000:1 compression ratio)
+4. For Pong, applying Pāṇini's principles to game physics led to 476,671.45x compression
 
 This progression - from numbers to language to video games - shows how the same fundamental principles of finding minimal generative descriptions apply across domains. This is why compression can be seen as a measure of intelligence: the better we understand a system, the more efficiently we can describe it.
 
@@ -587,7 +587,7 @@ This principle is formalized by Ray Solomonoff in his theory of universal induct
 
 > "If the universe is generated by an algorithm, then observations of that universe, encoded as a dataset, are best predicted by the smallest executable archive of that dataset"
 
-The connection to Solomonoff induction helps explain why Panini's grammar has remained useful for over two millennia: by finding the shortest possible rule set that could generate Sanskrit, he wasn't just being clever with compression - he was discovering the true underlying structure of the language. Finding the most compressed representation of data (like Panini's grammar rules) isn't just an efficiency trick - it's mathematically optimal for prediction and understanding.
+The connection to Solomonoff induction helps explain why Pāṇini's grammar has remained useful for over two millennia: by finding the shortest possible rule set that could generate Sanskrit, he wasn't just being clever with compression - he was discovering the true underlying structure of the language. Finding the most compressed representation of data (like Pāṇini's grammar rules) isn't just an efficiency trick - it's mathematically optimal for prediction and understanding.
 
 This connection between compression and understanding has profound implications:
 
@@ -597,9 +597,9 @@ This connection between compression and understanding has profound implications:
 
 **Understanding** means finding the true generative process that produces past and future observations.
 
-When a child learns how to catch a ball, they're not memorizing every position of the ball they've seen - they're *discovering* the grammar of projectile motion, that they can apply to any object hurled towards them. When we understand language, we don't memorize every possible sentence - we learn the rules that generate valid ones. When we play chess, we don't memorize every possible board position - we discover the rules of the game, and even discover new high-level rules that the original game designer hadn't thought of - like the *Queen's Gambit* opening move. When Panini created his grammar, he wasn't just documenting Sanskrit - he was discovering a fundamental approach to understanding that we can apply to everything from ancient languages to modern video games.
+When a child learns how to catch a ball, they're not memorizing every position of the ball they've seen - they're *discovering* the grammar of projectile motion, that they can apply to any object hurled towards them. When we understand language, we don't memorize every possible sentence - we learn the rules that generate valid ones. When we play chess, we don't memorize every possible board position - we discover the rules of the game, and even discover new high-level rules that the original game designer hadn't thought of - like the *Queen's Gambit* opening move. When Pāṇini created his grammar, he wasn't just documenting Sanskrit - he was discovering a fundamental approach to understanding that we can apply to everything from ancient languages to modern video games.
 
-Indeed, this is what we see with our code examples above and with what Panini's astonishing feat of compression. His work isn't just limited to modelling the spoken linguistic reality of the past - but could well be about discovering a universal principle of intelligence that will hold the key to building powerful thinking machines of the future.
+Indeed, this is what we see with our code examples above and with what Pāṇini's astonishing feat of compression. His work isn't just limited to modelling the spoken linguistic reality of the past - but could well be about discovering a universal principle of intelligence that will hold the key to building powerful thinking machines of the future.
 
 > "Riemann invented his geometries before Einstein had a use for them; the physics of our universe is not that complicated in an absolute sense.  A Bayesian superintelligence, hooked up to a webcam, would invent General Relativity as a hypothesis—perhaps not the dominant hypothesis, compared to Newtonian mechanics, but still a hypothesis under direct consideration—by the time it had seen the third frame of a falling apple.  It might guess it from the first frame, if it saw the statics of a bent blade of grass." - E. Yudkowsky
 
