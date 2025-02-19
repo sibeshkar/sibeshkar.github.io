@@ -335,9 +335,9 @@ some more ancient languages like Sanskrit (and Greek) turn out to have a structu
 
 This makes a language like Sanskrit more like our Fibonacci sequence - there are clear generative rules that can produce valid constructions.
 
-### Panini's Method in Action
+### Pāṇini's Method in Action
 
-Let's look at some concrete examples of how Panini's grammar generates Sanskrit words and sentences:
+Let's look at some concrete examples of how Pāṇini's grammar generates Sanskrit words and sentences:
 
 1. **Root-Based Word Generation**:
    ```python
@@ -355,7 +355,7 @@ Let's look at some concrete examples of how Panini's grammar generates Sanskrit 
    - bhavasi (you are)
    - bhavati (he/she/it is)
 
-   The transformation bhū → bhav is handled by another rule (guṇa strengthening). When the root 'bhū' combines with certain suffixes, this rule changes the 'ū' sound to 'av', demonstrating how Panini's system handles systematic sound (phonological) changes that occur when morphemes combine.
+   The transformation bhū → bhav is handled by another rule (guṇa strengthening). When the root 'bhū' combines with certain suffixes, this rule changes the 'ū' sound to 'av', demonstrating how Pāṇini's system handles systematic sound (phonological) changes that occur when morphemes combine.
 
 2. **Compound Word Formation**:
    ```python
@@ -387,7 +387,7 @@ Let's look at some concrete examples of how Panini's grammar generates Sanskrit 
    - devadattaḥ odanaṃ pacati (Devadatta cooks rice)
    - odanaḥ pacyate (Rice is cooked)
 
-The power of Panini's system comes from how these rules interact:
+The power of Pāṇini's system comes from how these rules interact:
 
 1. **Recursive Application**:
    ```python
@@ -412,19 +412,19 @@ The power of Panini's system comes from how these rules interact:
    ```
 These meta-rules ensure correct application order and handle exceptions systematically.
 
-We see Panini's approach compresses his original corpus by many orders of magnitude by systematically doing *more* with *less*:
+We see Pāṇini's approach compresses his original corpus by many orders of magnitude by systematically doing *more* with *less*:
 1. Each rule can generate many forms (e.g., one verb root rule generates hundreds of conjugations)
 2. Rules interact to produce complex forms (like compounds and derivatives)
 3. Meta-rules handle exceptions without needing separate rules for each case
 4. The system captures both form (phonology) and meaning (semantics)
 
-For example, from just the root "bhū" and a set of rules, Panini's grammar can generate:
+For example, from just the root "bhū" and a set of rules, Pāṇini's grammar can generate:
 - All conjugated forms (bhavāmi, bhavasi, bhavati, etc.)
 - All derived nouns (bhavana, bhāva, bhūti, etc.)
 - All compounds (bhūloka - world of existence, bhūtapūrva - having been before, etc.)
 - All these forms in different syntactic roles
 
-This is analogous to our Fibonacci example, where one simple rule (Fn = Fn-1 + Fn-2) generates an infinite sequence. But Panini's grammar goes further, handling multiple interacting patterns simultaneously while maintaining semantic coherence. There are infact two remarkable things to notice here: 
+This is analogous to our Fibonacci example, where one simple rule (Fn = Fn-1 + Fn-2) generates an infinite sequence. But Pāṇini's grammar goes further, handling multiple interacting patterns simultaneously while maintaining semantic coherence. There are infact two remarkable things to notice here: 
 
 1. He was building on some previous work, but that a human with no tooling/computation access could speedrun a 5000x compression in a lifetime is astonishing. A 21st century analogue would be if Linus Torvalds hand-wrote the final, complete, version of Linux on his first try without access to a compiler - the penultimate version which would never require any patches/fixes after creation. 
 2. It's bizarre that an unchanging centralized rule-based generative order even exists for an evolving spoken language that was decentralized in its usage - and this formalism was lying there waiting to be discovered, like one would think of a theory of gravity. It's like counting the seed spirals of a sunflower and finding that they always follow some predetermined recursive Fibonacci sequence ([which they do!](https://royalsocietypublishing.org/doi/10.1098/rsos.160091)), or appear in fixed golden ratios of Phi (1.618...). This is a discussion for another day.
