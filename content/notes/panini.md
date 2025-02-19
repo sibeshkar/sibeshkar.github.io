@@ -452,17 +452,9 @@ What makes Panini's work particularly relevant to our discussion is that it demo
 
 3. **Generative Power**: Like our abstract grammars generating infinite sequences, his system can generate all valid Sanskrit constructions
 
-### From Ancient Grammar to Modern Systems
+## From Ancient Grammar to Modern Systems : The Case of Pong
 
-While Panini's work on Sanskrit grammar might seem purely academic, his approach to finding minimal generative rules has profound implications for modern complex systems. Consider:
-
-1. **Pattern Recognition**: Just as Panini identified patterns in language, we can identify patterns in any system
-2. **Rule Abstraction**: His method of finding minimal rules can apply to any complex behavior
-3. **Generative Power**: Like his grammar generating infinite valid sentences, we can generate infinite valid states
-
-This approach becomes particularly powerful when we apply it to modern systems that seem vastly different from language. Let's see how Panini's principles can help us understand and compress something seemingly unrelated: a video game.
-
-## Extending to State Machines: The Case of Pong
+While Panini's work on Sanskrit grammar might seem purely academic, this method of identifying patterns, finding minimal rules, and using them to generate valid outputs can be applied far beyond language - it provides a universal framework for understanding and compressing any complex system, allowing us to generate infinite valid states from a small set of core rules.
 
 The real power of Panini's compression approach to generative grammars becomes clear when we apply it to modelling more complex systems with real-world state machines - like video games. Just as Panini found that all of Sanskrit could be generated from ~4,000 rules, we'll see how an entire game can be generated from just 8 rules. Let's look at how we could compress a recording of a Pong game:
 
@@ -574,34 +566,26 @@ Even our conservative estimate shows impressive compression because we're captur
 2. The player inputs - about 35KB
 3. The game state - just 16 bytes
 
-The grammar captures both the physics engine and the rendering logic in just 8 rules! This massive compression ratio illustrates a profound point: when we truly understand a system, we don't need to store its behavior - we can store its rules and regenerate any behavior we want. This is exactly how human intelligence works: we don't memorize every position or pixel of every object we've ever seen moving - we learn the laws of physics and can use them to predict and understand any motion.
+The grammar captures both the physics engine and the rendering logic in just 8 rules! This massive compression ratio illustrates a profound point: when we truly understand a system, we don't need to store its behavior - we can store its rules and regenerate any behavior we want. This is exactly how human intelligence works: we don't memorize every position or pixel of every object we've ever seen moving - we learn the intuitive laws of physics and can use them to predict and understand any motion.
 
 ## The Connection to Intelligence
 
-The relationship between compression and intelligence becomes clear when we look at our progression from simple sequences to complex systems. In each case, better compression came from better understanding of the underlying pattern:
+The relationship between compression and intelligence becomes clear when we look at our progression from simple sequences to complex systems. In each case, better compression came from better understanding ("modelling") of the dynamics of the system:
 
 1. For Fibonacci, understanding the recursive relationship led to 189.21x compression
-2. For language, recognizing sentence structure led to 22.93x compression (limited by English's context sensitivity)
+2. For the English sentences, recognizing sentence structure led to 22.93x compression (limited by English's context sensitivity)
 3. For Sanskrit, Panini's grammar achieved remarkable compression of an entire language with just ~4,000 rules (~5000:1 compression ratio)
 4. For Pong, applying Panini's principles to game physics led to 476,671.45x compression
 
 This progression - from numbers to language to video games - shows how the same fundamental principles of finding minimal generative descriptions apply across domains. This is why compression can be seen as a measure of intelligence: the better we understand a system, the more efficiently we can describe it.
 
-In machine learning terms, this is closely related to the concept of "minimum description length" (MDL) principle, which states that the best model for a dataset is the one that minimizes:
-1. The size of the model (our grammar rules)
-2. The size of the data when encoded using the model (our inputs)
+In machine learning terms, this is closely related to the concept of "minimum description length" (MDL) principle, which states that the best model for a dataset is the one that minimizes the size of the model (our grammar rules) and maximizes the size of the data it explains (our inputs)
 
 This principle is formalized by Ray Solomonoff in his theory of universal inductive inference. 
 
 > "If the universe is generated by an algorithm, then observations of that universe, encoded as a dataset, are best predicted by the smallest executable archive of that dataset"
 
-In other words, finding the most compressed representation of data (like Panini's grammar rules) isn't just an efficiency trick - it's mathematically optimal for prediction and understanding.
-
-The connection to Solomonoff induction helps explain why Panini's grammar has remained useful for over two millennia: by finding the shortest possible rule set that could generate Sanskrit, he wasn't just being clever with compression - he was discovering the true underlying structure of the language. 
-
-Indeed, this is what we've demonstrated with our code examples above and what Panini achieved with Sanskrit. His work isn't just limited to modelling the spoken linguistic reality of the time - but could well be about discovering a universal principle of intelligence that may hold the key to building thinking machines of the future.
-
-## Why This Matters
+The connection to Solomonoff induction helps explain why Panini's grammar has remained useful for over two millennia: by finding the shortest possible rule set that could generate Sanskrit, he wasn't just being clever with compression - he was discovering the true underlying structure of the language. Finding the most compressed representation of data (like Panini's grammar rules) isn't just an efficiency trick - it's mathematically optimal for prediction and understanding.
 
 This connection between compression and understanding has profound implications:
 
@@ -613,8 +597,9 @@ This connection between compression and understanding has profound implications:
 
 When a child learns physics, they're not memorizing the position of every object they've seen - they're learning the grammar of motion. When we understand language, we don't memorize every possible sentence - we learn the rules that generate valid ones. When Panini created his grammar, he wasn't just documenting Sanskrit - he was discovering a fundamental approach to understanding that we can apply to everything from ancient languages to modern video games.
 
-This is why Panini's approach is so powerful: it reveals that true understand is not just in blind statistical compression, but in deducing the exact underlying processes that created that data. Whether it's a sequence of numbers, a set of sentences, or a video game, the principle remains the same: understanding the rules of generation is the key to both compression and comprehension. To understand the universe we must build a twin of it.
-
+Indeed, this is what we've demonstrated with our code examples above and what Panini achieved with Sanskrit. His work isn't just limited to modelling the spoken linguistic reality of the time - but could well be about discovering a universal principle of intelligence that will hold the key to building thinking machines of the future.
+It reveals that true understand is not just in blind statistical compression, but in deducing the exact underlying processes that created that data. Whether it's a sequence of numbers, a set of sentences, or a video game, the principle remains the same: understanding the rules of generation is the key to both compression and comprehension. To understand the universe we must build a twin of it.
+ 
 > "Riemann invented his geometries before Einstein had a use for them; the physics of our universe is not that complicated in an absolute sense.  A Bayesian superintelligence, hooked up to a webcam, would invent General Relativity as a hypothesis—perhaps not the dominant hypothesis, compared to Newtonian mechanics, but still a hypothesis under direct consideration—by the time it had seen the third frame of a falling apple.  It might guess it from the first frame, if it saw the statics of a bent blade of grass." - E. Yudkowsky
 
 ## References
