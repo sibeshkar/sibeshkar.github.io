@@ -609,4 +609,4 @@ Indeed, this is what we see with our code examples above and with what Panini's 
 
 [3] The *Aṣṭādhyāyī* achieves a remarkable compression ratio of at least 5000:1, condensing the rules that can generate over 10,000 hours of attested Sanskrit literature (including the ~20,000 verses of the four Vedas, along with the 100,000 verses of the Mahabharata, 24,000 verses of the Ramayana, 400,000 verses of the Puranas, and hundreds of thousands of verses across texts, philosophical shastras, and classical poetry) into just 2 hours of precisely formulated rules.
 
-[4] Pāṇini: Catching the Ocean in a Cow's Hoofprint, Vikram Chandra, 2019[blog.granthika.co/panini/](https://blog.granthika.co/panini/). Brilliant reading on the topic. (Excerpt)[https://x.com/sibeshkar/status/1889311803907227839]
+[4] Pāṇini: Catching the Ocean in a Cow's Hoofprint, Vikram Chandra, 2019[blog.granthika.co/panini/](https://blog.granthika.co/panini/). Brilliant reading on the topic. [Excerpt](https://x.com/sibeshkar/status/1889311803907227839)
