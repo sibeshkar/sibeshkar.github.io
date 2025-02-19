@@ -6,7 +6,7 @@ date : 11/02/2025
 
 ## Intelligence as compression
 
-(Skip to [code](/notes/panini/#pāṇinis-razor) walkthrough.)
+(Skip to [code](https://sibeshkar.github.io/notes/panini/#p%C4%81%E1%B9%87inis-razor) walkthrough.)
 
 Philosopher John Searle in his famous [Chinese Room argument](https://plato.stanford.edu/archIves/spr2010/entries/chinese-room/) argues against the possibility of a computer ever being able to think. From outside the closed room it may look like it's conversing in Chinese, but could the machine inside with a memorized table of what Chinese word comes after what could be considered to have understood Chinese? The argument intends to show that while suitably programmed computers may appear to converse, they are not capable of developing any understanding of meaning or semantics, even in principle. 
 
