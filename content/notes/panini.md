@@ -589,17 +589,16 @@ The connection to Solomonoff induction helps explain why Panini's grammar has re
 
 This connection between compression and understanding has profound implications:
 
-**Learning** is essentially finding better abstract grammars for observed data
+**Learning** is finding better, shorter abstract grammars for observed data.
 
-**Intelligence** can be measured by ability to find compact descriptions in the fewest observations (e.g. by looking at the least number of Fibonacci numbers)
+**Intelligence** can be measured by ability to find compact descriptions in the fewest observations (e.g. by looking at the least number of Fibonacci numbers).
 
-**Understanding** means finding the true generative process that produces past and future observations
+**Understanding** means finding the true generative process that produces past and future observations.
 
-When a child learns physics, they're not memorizing the position of every object they've seen - they're learning the grammar of motion. When we understand language, we don't memorize every possible sentence - we learn the rules that generate valid ones. When Panini created his grammar, he wasn't just documenting Sanskrit - he was discovering a fundamental approach to understanding that we can apply to everything from ancient languages to modern video games.
+When a child learns how to catch a ball, they're not memorizing every position of the ball they've seen - they're *discovering* the grammar of projectile motion, that they can apply to any object hurled towards them. When we understand language, we don't memorize every possible sentence - we learn the rules that generate valid ones. When we play chess, we don't memorize every possible board position - we discover the rules of the game, and even discover new high-level rules that the original game designer hadn't though of - like the *Queen's Gambit* opening move. When Panini created his grammar, he wasn't just documenting Sanskrit - he was discovering a fundamental approach to understanding that we can apply to everything from ancient languages to modern video games.
 
-Indeed, this is what we've demonstrated with our code examples above and what Panini achieved with Sanskrit. His work isn't just limited to modelling the spoken linguistic reality of the time - but could well be about discovering a universal principle of intelligence that will hold the key to building thinking machines of the future.
-It reveals that true understand is not just in blind statistical compression, but in deducing the exact underlying processes that created that data. Whether it's a sequence of numbers, a set of sentences, or a video game, the principle remains the same: understanding the rules of generation is the key to both compression and comprehension. To understand the universe we must build a twin of it.
- 
+Indeed, this is what we see with our code examples above and with what Panini's astonishing feat of compression. His work isn't just limited to modelling the spoken linguistic reality of the past - but could well be about discovering a universal principle of intelligence that will hold the key to building powerful thinking machines of the future.
+
 > "Riemann invented his geometries before Einstein had a use for them; the physics of our universe is not that complicated in an absolute sense.  A Bayesian superintelligence, hooked up to a webcam, would invent General Relativity as a hypothesis—perhaps not the dominant hypothesis, compared to Newtonian mechanics, but still a hypothesis under direct consideration—by the time it had seen the third frame of a falling apple.  It might guess it from the first frame, if it saw the statics of a bent blade of grass." - E. Yudkowsky
 
 ## References
