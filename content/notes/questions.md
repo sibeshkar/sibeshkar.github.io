@@ -21,6 +21,7 @@ This is a list of questions I'm tortured by. Most of the answers might be relate
 3. why and how did we evolve to dream?
 4. how could one way approximate a mind in-silico?
 5. how does the human mind mine abstractions to find relations between unrelated things?
+6. could a person blind from birth solve the [ARC-AGI](https://arcprize.org/) challenge / [Bongard problems](https://www.oebp.org/welcome.php)?
 
 ## language
 
