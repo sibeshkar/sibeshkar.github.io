@@ -74,62 +74,68 @@ class PongGrammar:
 
 
 # Example 1: Fibonacci Sequence Compression
-"""
-# Uncomment to run the Fibonacci sequence example
+# """
+# # Uncomment to run the Fibonacci sequence example
 
-def demonstrate_fibonacci_compression():
-    # Generate first 100 Fibonacci numbers
-    fib_sequence = generate_fibonacci(100)
-    print("First 100 Fibonacci numbers:")
-    print(", ".join(str(x) for x in fib_sequence[:10]) + "...")
-    print(f"100th Fibonacci number: {fib_sequence[-1]:,}")
+# def demonstrate_fibonacci_compression():
+#     # Generate first 100 Fibonacci numbers
+#     fib_sequence = generate_fibonacci(200)
+#     print("First 100 Fibonacci numbers:")
+#     print(", ".join(str(x) for x in fib_sequence[:10]) + "...")
+#     print(f"100th Fibonacci number: {fib_sequence[-1]:,}")
     
-    # Calculate direct storage needs
-    direct_bits = sum(math.ceil(math.log2(x)) for x in fib_sequence)
-    print(f"\nDirect storage needs {direct_bits:,} bits")
+#     # Calculate direct storage needs
+#     direct_bits = sum(math.ceil(math.log2(x)) for x in fib_sequence)
+#     print(f"\nDirect storage needs {direct_bits:,} bits")
     
-    # Naive Grammar
-    naive_rules = [Rule('S', ['F1'])] + [
-        Rule(f'F{i+1}', [str(num)])
-        for i, num in enumerate(fib_sequence)
-    ]
-    naive_grammar = Grammar(naive_rules)
-    naive_bits = naive_grammar.description_length()
+#     # Naive Grammar
+#     naive_rules = [Rule('S', ['F1'])] + [
+#         Rule(f'F{i+1}', [str(num)])
+#         for i, num in enumerate(fib_sequence)
+#     ]
+#     naive_grammar = Grammar(naive_rules)
+#     naive_bits = naive_grammar.description_length()
     
-    # Pattern Recognition Grammar
-    pattern_rules = [
-        Rule('S', ['F', 'N1']),
-        Rule('N1', ['1']),
-    ] + [
-        Rule(f'N{fib}', [str(fib)])
-        for fib in sorted(set(fib_sequence[:20]))
-    ] + [
-        Rule('F', ['N1']),
-        Rule('F', ['N1', '+', 'N1']),
-        Rule('F', ['N2', '+', 'N3']),
-        Rule('F', ['N3', '+', 'N5']),
-        Rule('F', ['N5', '+', 'N8']),
-    ]
-    pattern_grammar = Grammar(pattern_rules)
-    pattern_bits = pattern_grammar.description_length()
+#     # Pattern Recognition Grammar
+#     pattern_rules = [
+#         Rule('S', ['F', 'N1']),
+#         Rule('N1', ['1']),
+#     ] + [
+#         Rule(f'N{fib}', [str(fib)])
+#         for fib in sorted(set(fib_sequence[:100]))  # Keep first 100 Fibonacci numbers
+#     ] + [
+#         Rule('F', ['N1']),
+#         Rule('F', ['N1', '+', 'N1']),
+#         Rule('F', ['N2', '+', 'N3']),
+#         Rule('F', ['N3', '+', 'N5']),
+#         Rule('F', ['N5', '+', 'N8']),
+#         # Additional rules for larger Fibonacci combinations
+#         Rule('F', ['N8', '+', 'N13']),
+#         Rule('F', ['N13', '+', 'N21']),
+#         Rule('F', ['N21', '+', 'N34']),
+#         Rule('F', ['N34', '+', 'N55']),
+#         Rule('F', ['N55', '+', 'N89']),
+#     ]
+#     pattern_grammar = Grammar(pattern_rules)
+#     pattern_bits = pattern_grammar.description_length()
     
-    # Abstract Grammar
-    abstract_rules = [
-        Rule('S', ['F', '1']),
-        Rule('F', ['1']),
-        Rule('F', ['F', '+', 'F_prev'])
-    ]
-    abstract_grammar = Grammar(abstract_rules)
-    abstract_bits = abstract_grammar.description_length()
+#     # Abstract Grammar
+#     abstract_rules = [
+#         Rule('S', ['F', '1']),
+#         Rule('F', ['1']),
+#         Rule('F', ['F', '+', 'F_prev'])
+#     ]
+#     abstract_grammar = Grammar(abstract_rules)
+#     abstract_bits = abstract_grammar.description_length()
     
-    # Print results
-    print("\nCompression Comparison:")
-    print("=" * 50)
-    print(f"Direct storage:     {direct_bits:6,} bits (baseline)")
-    print(f"Naive grammar:      {naive_bits:6,} bits ({direct_bits/naive_bits:6.2f}x better)")
-    print(f"Pattern grammar:    {pattern_bits:6,} bits ({direct_bits/pattern_bits:6.2f}x better)")
-    print(f"Abstract grammar:   {abstract_bits:6,} bits ({direct_bits/abstract_bits:6.2f}x better)")
-"""
+#     # Print results
+#     print("\nCompression Comparison:")
+#     print("=" * 50)
+#     print(f"Direct storage:     {direct_bits:6,} bits (baseline)")
+#     print(f"Naive grammar:      {naive_bits:6,} bits ({direct_bits/naive_bits:6.2f}x better)")
+#     print(f"Pattern grammar:    {pattern_bits:6,} bits ({direct_bits/pattern_bits:6.2f}x better)")
+#     print(f"Abstract grammar:   {abstract_bits:6,} bits ({direct_bits/abstract_bits:6.2f}x better)")
+# # """
 
 # Example 2: Language Pattern Compression
 """
@@ -221,9 +227,14 @@ def demonstrate_pong_compression():
     print(f"Compression ratio:   {pixel_raw_size/(grammar_size + input_size + state_size):,.2f}x")
 """
 
+
+
+
 if __name__ == "__main__":
     # Uncomment the examples you want to run
     # demonstrate_fibonacci_compression()
     # demonstrate_language_compression()
     # demonstrate_pong_compression()
     pass 
+
+
