@@ -7,12 +7,12 @@ This is a list of questions I'm tortured by. Most of the answers might be relate
 
 ## intelligence 
 
-1. what does it mean for a machine to feel something, or, have a soul?
-2. what will the the first superintelligence in the first few minutes of existence look like? 
-3. what will it care about? 
-4. what will be the kind of predictions / generalization power the first superintelligence will have?
+1. what will the the first superintelligence in the first few minutes of existence look like? 
+2. what will it care about? 
+3. what will be the kind of predictions / generalization power the first superintelligence will have?
 4. how will intelligent machines and humans co-exist before, and during a post-scarcity society?
 5. how could one align the interests of a superintelligence with those of it's creators?
+6. what does it mean for a machine to feel something?
 
 ## cognitive Science 
 
