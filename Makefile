@@ -35,6 +35,7 @@ publish: ## Build and publish site to the GitHub Pages master branch
 	git worktree add --detach "$$tmp" origin/master; \
 	rsync -a --delete --exclude=.git public/ "$$tmp"/; \
 	echo "sibeshkar.github.io" > "$$tmp"/CNAME; \
+	touch "$$tmp"/.nojekyll; \
 	git -C "$$tmp" config user.name "sibeshkar"; \
 	git -C "$$tmp" config user.email "sibesh96@gmail.com"; \
 	git -C "$$tmp" add -A; \
