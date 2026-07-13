@@ -20,5 +20,30 @@ serve: ## Serve Quartz locally
 	hugo-obsidian -input=content -output=assets/indices -index -root=.
 	hugo server --enableGitInfo --minify --bind=$(or $(HUGO_BIND),0.0.0.0) --baseURL=$(or $(HUGO_BASEURL),http://localhost) --port=$(or $(HUGO_PORT),1313) --appendPort=$(or $(HUGO_APPENDPORT),true) --liveReloadPort=$(or $(HUGO_LIVERELOADPORT),-1)
 
+publish: ## Build and publish site to the GitHub Pages master branch
+	@set -e; \
+	export PATH="$(HOME)/.local/bin:$(HOME)/go/bin:$$PATH"; \
+	echo "Building Quartz indices..."; \
+	hugo-obsidian -input=content -output=assets/indices -index -root=.; \
+	echo "Building Hugo site..."; \
+	hugo --minify; \
+	tmp=$$(mktemp -d -t quartz-publish); \
+	echo "Publishing from temporary worktree: $$tmp"; \
+	cleanup() { git worktree remove --force "$$tmp" >/dev/null 2>&1 || rm -rf "$$tmp"; }; \
+	trap cleanup EXIT; \
+	git fetch origin master; \
+	git worktree add --detach "$$tmp" origin/master; \
+	rsync -a --delete --exclude=.git public/ "$$tmp"/; \
+	echo "sibeshkar.github.io" > "$$tmp"/CNAME; \
+	git -C "$$tmp" config user.name "sibeshkar"; \
+	git -C "$$tmp" config user.email "sibesh96@gmail.com"; \
+	git -C "$$tmp" add -A; \
+	if git -C "$$tmp" diff --cached --quiet; then \
+		echo "No generated changes to publish."; \
+	else \
+		git -C "$$tmp" commit -m "Deploy site"; \
+		git -C "$$tmp" push origin HEAD:master; \
+	fi
+
 docker: ## Serve locally using Docker
 	docker run -it --volume=$(shell pwd):/quartz -p 1313:1313 ghcr.io/jackyzha0/quartz:hugo
