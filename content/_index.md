@@ -28,6 +28,7 @@ always up to discuss these [questions](notes/questions). making time to grok oth
 - [on an alien planet](/notes/alien)
 - [charkhas, ai & economic growth](/notes/economy)
 - [the Pāṇinian approach to compression](/notes/panini)
+- [thoughts on the scaling hypothesis](/notes/contra-scaling)
 
 ## modelling physics
 - [the non-local intuition of david bohm](notes/bohm)
