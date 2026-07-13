@@ -3,7 +3,7 @@ title : Thoughts on the scaling hypothesis
 date : 13/07/2026
 ---
 
-Rough thoughts on scaling post-training and pre-training LLM resources (data/compute etc) as a measure of progress.
+Rough thoughts on scaling post-training and pre-training LLM resources (data/compute etc) as a catalyst of progress.
 
 ## **ASSERTION 1**  
 
